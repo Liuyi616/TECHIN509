@@ -1,5 +1,7 @@
 from typing import List
 
+# This is my comment - by Zhangzeng
+
 board = [
     "...........##.........",
     "......#####..###......",
