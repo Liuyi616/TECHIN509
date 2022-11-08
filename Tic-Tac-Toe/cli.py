@@ -9,7 +9,8 @@ if __name__ == '__main__':
     board = make_empty_board()
     size = board_full(board)
     winner = None
-    while not game_ended(board, get_board_size(board)):
+    turn = 'O'
+    while not game_ended(board):
         print("TODO: take a turn!")
         user_in = input("Player " + turn + ", place your piece: ")
         # TODO: Show the board to the user.
